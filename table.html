@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <style>
+        body{
+            font-size: 14px;
+        }
+        table {
+            border: solid 1px #91c5d3;
+            border-collapse: collapse;
+            margin: 50px auto;
+        }
+        th{
+            border: solid 1px white;
+            width: 100px;
+            height: 30px;
+            background-color: #66a9bc;
+            color: #444;
+
+        }
+        th:first-child{
+            width: 200px;
+        }
+        td{
+            border: solid 1px white;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            overflow: hidden;
+        }
+        td:first-child{
+           background-color: #91c5d3;
+        }
+        td:last-child,td:nth-child(2),td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(2),td:nth-child(6){
+            background-color: #d6e9f0;
+        }
+        tr:nth-child(2){
+            background-color:#91c5d3 ;
+        }
+        h1{
+            margin-top: 100px;
+            text-align: center;
+            font-size: 70px;
+            color: red;
+            text-shadow: 0 0 4px white,0 -5px 4px #ff3,-2px -15px 11px #f80,2px -25px 18px #f20;
+        }
+    </style>
+</head>
+<body>
+<h1>山地自行车</h1>
+<table>
+    <tr>
+        <th rowspan="2" >主要品牌</th>
+        <th colspan="6">产品参数</th>
+    </tr>
+    <tr>
+        <th>价格</th>
+        <th>速别</th>
+        <th>轮径尺寸</th>
+        <th>制动系统</th>
+        <th>车架类型</th>
+        <th>车架材质</th>
+    </tr>
+    <tr>
+        <td >永久ForeverMT350</td>
+        <td>800</td>
+        <td>24速</td>
+        <td>26英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+    <tr>
+        <td>凤凰PHOENIXM660</td>
+        <td>900</td>
+        <td>24速</td>
+        <td>26英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+    <tr>
+        <td>喜德盛旭日300A</td>
+        <td>1300</td>
+        <td>24速</td>
+        <td>26英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+    <tr>
+        <td>捷安特GIANTTough</td>
+        <td>4300</td>
+        <td>27速</td>
+        <td>29英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+    <tr>
+        <td>美利达MERIDA RID901</td>
+        <td>1300</td>
+        <td>27速</td>
+        <td>29英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+    <tr>
+        <td>迪卡侬 B'TWIN Rockrider</td>
+        <td>900</td>
+        <td>21速</td>
+        <td>29英寸</td>
+        <td>双碟刹</td>
+        <td>硬车架</td>
+        <td>铝合金</td>
+    </tr>
+</table>
+</body>
+</html>

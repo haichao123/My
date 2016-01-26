@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    color: #111;
+    font-family: Georgia,"Times New Roman",Times,Serif;
+    padding: 20px;
+
+}
+form#payment{
+    background-color: #9cbc2c;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+form#payment fieldset{
+    border: none;
+}
+form#payment legend{
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #c0d576;
+    color: #384313;
+    margin-bottom: 10px;
+}
+form#payment ol li{
+    border: solid 2px #111;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #b9cf6a;
+    line-height: 30px;
+    list-style: none;
+}
+form#payment ol li label{
+    float: left;
+    width: 110px;
+    font-size: 13px;
+}
+form#payment ol ol li {
+    background: none;
+    border: none;
+    float: left;
+}
+form#payment input:not([type="radio"]),textarea{
+    width: 200px;
+    padding: 5px;
+    background: #fff;
+    border:#fc3 solid 1px;
+    border-radius: 3px;
+    outline:none;
+}
+form#payment input[type="radio"]{
+    float: left;
+    margin-top: 8px;
+}
